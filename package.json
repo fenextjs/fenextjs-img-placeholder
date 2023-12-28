@@ -1,6 +1,6 @@
 {
   "name": "fenextjs-img-placeholder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./cjs/index.js",
   "module": "./cjs/index.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/franciscoblancojn/fenextjs-npm.git"
+    "url": "git+https://github.com/franciscoblancojn/fenextjs-img-placeholder.git"
   },
   "keywords": [
     "fenextjs",
@@ -34,9 +34,9 @@
   "author": "franciscoblancojn",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/franciscoblancojn/fenextjs-npm/issues"
+    "url": "https://github.com/franciscoblancojn/fenextjs-img-placeholder/issues"
   },
-  "homepage": "https://gitlab.com/franciscoblancojn/fenextjs-npm#readme",
+  "homepage": "https://github.com/franciscoblancojn/fenextjs-img-placeholder#readme",
   "dependencies": {
     
   },
