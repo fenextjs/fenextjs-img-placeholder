@@ -1,6 +1,6 @@
 {
   "name": "fenextjs-img-placeholder",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "./cjs/index.js",
   "module": "./cjs/index.js",
@@ -44,14 +44,14 @@
     "@types/node": "20.8.5",
     "@types/react": "18.2.28",
     "@types/react-dom": "18.2.13",
-    "@typescript-eslint/eslint-plugin": "^6.7.5",
-    "@typescript-eslint/parser": "^6.7.5",
+    "@typescript-eslint/eslint-plugin": "6.7.5",
+    "@typescript-eslint/parser": "6.7.5",
     "eslint": "8.51.0",
-    "prettier": "^3.0.3",
-    "ts-loader": "^9.5.0",
-    "tslib": "^2.6.2",
-    "npm-check-updates": "^16.14.6",
-    "typescript": "^5.2.2"
+    "prettier": "3.0.3",
+    "ts-loader": "9.5.0",
+    "tslib": "2.6.2",
+    "npm-check-updates": "16.14.6",
+    "typescript": "5.2.2"
   },
   "files": [
     "cjs",
