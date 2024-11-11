@@ -15,7 +15,7 @@ export default {
         {
           text: "Usar en la etiqueta Img de fenextjs",
           content: `import { Img } from "fenextjs";
-<Img src={ImgUrl} alt="" imgIf404={FenextImgPlaceholder} />`
+<Img src={"...url"} alt="" imgIf404={FenextImgPlaceholder} />`
         },
       ]
 };
