@@ -1,3 +1,3 @@
-import {FenextImgPlaceholderUrlBase} from '../_urlBase';
+import { FenextImgPlaceholderUrlBase } from "../_urlBase";
 
-export const FenextImgPlaceholder = `${FenextImgPlaceholderUrlBase}/placeholder.png`
+export const FenextImgPlaceholder = `${FenextImgPlaceholderUrlBase}/placeholder.png`;
