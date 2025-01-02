@@ -15,13 +15,13 @@
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
     "flb": "npm run format && npm run lint && npm run build",
-    "bun-i":"bun i",
-    "remove-bun-lockb":"rm -r bun.lockb",
-    "remove-node-module":"rm -r node_modules",
-    "remove":"npm run remove-node-module && npm run remove-bun-lockb",
+    "bun-i": "bun i",
+    "remove-bun-lockb": "rm -r bun.lockb",
+    "remove-node-module": "rm -r node_modules",
+    "remove": "npm run remove-node-module && npm run remove-bun-lockb",
     "update-package": "ncu -u '/^fenextjs.*$/' country-state-city-nextjs uselocalstoragenextjs",
-    "update":"npm run update-package && npm run remove && npm run bun-i && npm run flb",
-    "u":"npm run update"
+    "update": "npm run update-package && npm run remove && npm run bun-i && npm run flb",
+    "u": "npm run update"
   },
   "repository": {
     "type": "git",
@@ -37,20 +37,18 @@
     "url": "https://github.com/franciscoblancojn/fenextjs-img-placeholder/issues"
   },
   "homepage": "https://github.com/franciscoblancojn/fenextjs-img-placeholder#readme",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/node": "20.8.5",
+    "@types/node": "^22.10.4",
     "@types/react": "18.2.28",
     "@types/react-dom": "18.2.13",
     "@typescript-eslint/eslint-plugin": "6.7.5",
     "@typescript-eslint/parser": "6.7.5",
     "eslint": "8.51.0",
+    "npm-check-updates": "16.14.6",
     "prettier": "3.0.3",
     "ts-loader": "9.5.0",
     "tslib": "2.6.2",
-    "npm-check-updates": "16.14.6",
     "typescript": "5.2.2"
   },
   "files": [
